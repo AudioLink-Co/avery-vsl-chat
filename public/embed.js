@@ -17,7 +17,7 @@
   iframe.loading = "lazy";
   iframe.style.width = "100%";
   iframe.style.maxWidth = maxWidth;
-  iframe.style.height = /(\px|%|vh|vw|rem|em)$/.test(String(height)) ? String(height) : height + "px";
+  iframe.style.height = /(px|%|vh|vw|rem|em)$/.test(String(height)) ? String(height) : height + "px";
   iframe.style.border = "0";
   iframe.style.borderRadius = "20px";
   iframe.style.display = "block";
