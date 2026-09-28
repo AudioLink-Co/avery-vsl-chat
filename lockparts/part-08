@@ -415,7 +415,7 @@ sion": "4.3.3",
     "node_modules/unrs-resolver": {
       "version": "1.12.2",
       "resolved": "https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.12.2.tgz",
-      "integrity": "sha512-dmlRxBJJayXjqTwC+JtF1HhJmgf3ftQ3YejFcZrf4+KKtJv0qDsK1pjqaaVjG7wJ5NJ6jqD2BFshejCYXniPDbNh73V8w==",
+      "integrity": "sha512-dmlRxBJJayXjqTwC+JtF1HhJmgf3ftQ3YejFcZrf4+KKtJv0qDsK1pjqaaVjG7wJ5NJ6UVP1OqRMQ71Z4C3rxQ==",
       "dev": true,
       "hasInstallScript": true,
       "license": "MIT",
