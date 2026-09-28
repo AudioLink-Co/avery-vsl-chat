@@ -740,7 +740,7 @@
         "@types/react": "*",
         "@types/react-dom": "*",
         "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
-        "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0.0-rc"
+        "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc"
       },
       "peerDependenciesMeta": {
         "@types/react": {
@@ -1296,7 +1296,7 @@
     "node_modules/@tailwindcss/postcss": {
       "version": "4.3.3",
       "resolved": "https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz",
-      "integrity": "sha512-JTSZZGQi1AyKirbLN3azmjVzef92tcX7h+iSqPdaeStyFpGpDlKvvpxeOE8njhbUanbRwr3z8DyzhICWnMtQeg==",
+      "integrity": "sha512-JTSZZGQi1AyKirbLN3azmjVzef92tcX7h+iSqPdaeStyFpGpDlKvvpxeOE8njhbUanbRwr3Z6d+4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw==",
       "dev": true,
       "license": "MIT",
       "dependencies": {
