@@ -623,7 +623,7 @@
     "node_modules/send": {
       "version": "1.2.1",
       "resolved": "https://registry.npmjs.org/send/-/send-1.2.1.tgz",
-      "integrity": "sha512-1gnZf7DFcoIcajTjTwjwuDj9F9P9cB8+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==",
+      "integrity": "sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ==",
       "license": "MIT",
       "dependencies": {
         "debug": "^4.4.3",
@@ -833,7 +833,7 @@
     "node_modules/sharp": {
       "version": "0.35.5",
       "resolved": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
-      "integrity": "sha512-Ywn4OnzGukp7CDMrp08RQ50YKmuwG47brZgIVPTvM1n+FN+x6MtDViPB5AJMfttVCUhehGWus3XBPgatM/w==",
+      "integrity": "sha512-Ywn4OnzGukp7CDMrp08RQ50YKmuwG47brZgIVPTvBaaAfQlRlygrRqSrxdCiL9M+LlzLBiJ68IR1QqvzHyjC7g==",
       "license": "Apache-2.0",
       "optional": true,
       "dependencies": {
@@ -1379,7 +1379,7 @@
     "node_modules/swr": {
       "version": "2.5.1",
       "resolved": "https://registry.npmjs.org/swr/-/swr-2.5.1.tgz",
-      "integrity": "sha512-BRw55e8r0B7SpDN20CAzoQAHl7y1yP7/Zt7oqUjMv0vSt2u2Xnkm88Ws+VypbV9BXHQVuSuyvq7zMjO16wSExw==",
+      "integrity": "sha512-BRw55e8r0B7SpDN20CAzoQAHl7y1yP7/Zt7oqUjMv0vSt2u2Xnkm88Ws+VypbV9BXHQVuSuyVq7zMjO16wSExw==",
       "license": "MIT",
       "dependencies": {
         "dequal": "^2.0.3",
