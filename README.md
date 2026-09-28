@@ -16,11 +16,13 @@ Create a **Node** web service (or apply [`render.yaml`](render.yaml)):
 
 | Setting | Value |
 | --- | --- |
-| buildCommand | `npm ci && npm run build` |
+| buildCommand | `node scripts/restore-lock.mjs && npm ci && npm run build` |
 | startCommand | `npm start` |
 | Health check | `/embed` |
 
 `npm start` listens on `0.0.0.0` and the `PORT` Render sets. With `PORT` unset, local production uses 43123.
+
+`package-lock.json` is stored as ASCII pieces in `lockparts/` so the repo can be published in smaller commits. `scripts/restore-lock.mjs` joins them back into `package-lock.json` before `npm ci`. On a machine that already has `package-lock.json`, `npm ci && npm run build` is enough. A fresh clone should run the restore script first.
 
 Set these in the Render dashboard. Do not put them in git, and do not put `OPENAI_API_KEY` in the email to Josiah.
 
