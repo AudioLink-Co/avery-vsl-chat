@@ -34,7 +34,7 @@ describe("Avery voice", () => {
   it("prompt reuses the disclosure, FAQ, and booking voice", () => {
     assert.match(prompt, /AVERY_DISCLOSURE/);
     assert.match(prompt, /AVERY_FAQ/);
-    assert.match(copy, /AVERY_BOOKING_VOICE/);
+    assert.match(prompt, /AVERY_BOOKING_VOICE/);
     assert.match(copy, /stacked, with no buffer/);
   });
 });
