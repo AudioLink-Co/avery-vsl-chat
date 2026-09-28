@@ -1,0 +1,20 @@
+# Blueprint for the Avery VSL chat.
+# OPENAI_API_KEY is entered in the Render dashboard. It is not stored here.
+services:
+  - type: web
+    name: avery-vsl-chat
+    runtime: node
+    region: oregon
+    plan: starter
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /embed
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_BOOKING_URL
+        value: https://calendar.audiolink.co/audiolink-call-579300
