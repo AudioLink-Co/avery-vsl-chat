@@ -50,7 +50,7 @@ function PortraitMark({ className, size }: { className?: string; size: number })
           <stop offset="1" stopColor="#1b3338" />
         </linearGradient>
       </defs>
-      <g clipPath={`url(#${clipId})}>
+      <g clipPath={`url(#${clipId})`}>
         <rect width="160" height="160" fill={`url(#${clipId}-bg)`} />
         <circle cx="118" cy="28" r="26" fill="#c9844a" opacity="0.35" />
         <path
