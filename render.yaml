@@ -7,7 +7,7 @@ services:
     region: oregon
     plan: starter
     branch: main
-    buildCommand: npm ci && npm run build
+    buildCommand: node scripts/restore-lock.mjs && npm ci && npm run build
     startCommand: npm start
     healthCheckPath: /embed
     autoDeployTrigger: commit
